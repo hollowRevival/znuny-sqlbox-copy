@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>SqlBoxCopy</Name>
+    <Version>1.0.0</Version>
+    <Framework>6.5.x</Framework>
+    <Vendor>Katla</Vendor>
+    <URL>https://github.com/hollowRevival/znuny-sqlbox-copy</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+    <Description Lang="sv">Lägger en knapp på SQL Box (Admin) som kopierar resultatet som Markdown, TSV eller JSON, med fulla cellvärden. Vid noll rader kopieras SQL-frågan och Znunys meddelande i stället (Markdown och JSON).</Description>
+    <Description Lang="en">Adds a button to the SQL Box (Admin) that copies the results as Markdown, TSV or JSON with full cell values. With no rows, Markdown and JSON copy the SQL query and the message shown instead.</Description>
+    <Description Lang="de">Fügt der SQL Box (Admin) eine Schaltfläche hinzu, die das Ergebnis als Markdown, TSV oder JSON mit vollständigen Zellwerten kopiert. Bei null Zeilen kopieren Markdown und JSON stattdessen die SQL-Abfrage und die angezeigte Meldung.</Description>
+    <Description Lang="es">Añade a SQL Box (Admin) un botón que copia los resultados como Markdown, TSV o JSON con los valores completos de las celdas. Si no hay filas, Markdown y JSON copian en su lugar la consulta SQL y el mensaje mostrado.</Description>
+    <Description Lang="pt">Adiciona à SQL Box (Admin) um botão que copia os resultados como Markdown, TSV ou JSON, com os valores completos das células. Quando não há linhas, Markdown e JSON copiam, em vez disso, a consulta SQL e a mensagem mostrada.</Description>
+    <Description Lang="it">Aggiunge alla SQL Box (Admin) un pulsante che copia i risultati come Markdown, TSV o JSON con i valori completi delle celle. Se non ci sono righe, Markdown e JSON copiano invece la query SQL e il messaggio visualizzato.</Description>
+    <Description Lang="fr">Ajoute à la SQL Box (Admin) un bouton qui copie les résultats en Markdown, TSV ou JSON avec les valeurs complètes des cellules. Sans résultat, Markdown et JSON copient à la place la requête SQL et le message affiché.</Description>
+    <PackageIsDownloadable>1</PackageIsDownloadable>
+    <ChangeLog Version="1.0.0" Date="2026-11-16">First release.</ChangeLog>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/SqlBoxCopy.xml" />
+        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.SqlBoxCopy.js" />
+    </Filelist>
+</otrs_package>

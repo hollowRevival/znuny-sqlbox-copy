@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="2.0" init="Application">
+    <Setting Name="Loader::Module::AdminSelectBox###100-SqlBoxCopy" Required="0" Valid="1">
+        <Description Translatable="1">Loader module registration for the SQL Box: adds a button that copies the results as Markdown, TSV or JSON.</Description>
+        <Navigation>Frontend::Admin::ModuleRegistration::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="JavaScript">
+                    <Array>
+                        <Item>Core.Agent.Admin.SqlBoxCopy.js</Item>
+                    </Array>
+                </Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
